@@ -1,0 +1,341 @@
+body {
+    background: #474749;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    display: flex;
+    font-family: 'roboto', sans-serif;
+
+    width: 100%;
+    height: 100%;
+    
+}
+
+main {
+    background-image: linear-gradient(to right, #313132, #161618);
+    height: 90vh;
+    width: 1140px;
+    margin: auto;
+    display: flex;
+   
+    margin-top: 40px;
+    border-radius: 20px;
+
+    position: relative;
+}
+
+main img {
+    height: 25px;
+}
+
+.menu-lateral {
+    width: 15%;
+    
+}
+
+
+.section--logo {
+    
+    height: 90vh;
+    width: 150px;
+    border-right: 1px solid rgb(148, 143, 143);
+    /*border-radius: 8px;*/
+}
+
+.logo {
+    text-align: center;
+    font-size: 35px;
+    height: 65vh;
+    padding-top: 20px;
+}
+
+.media--social {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row; 
+
+    transform: rotate(-90deg);
+
+    height: 20vh;
+}
+
+/* =============== PRINCIPAL ===================*/
+
+
+.section--principal {
+    width: 100%;
+    max-height: 800px;
+    
+    background-image: url(images/senhor-aneis.png);
+    background-repeat: no-repeat;
+    background-position: top;
+
+    background-size: 45em;   
+    
+}
+
+.section--principal {
+    display: flex;
+    justify-content: flex-end;
+
+    
+}
+
+.container--bg {
+    text-align: left;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+
+    flex-direction: column;
+
+    height: 200px;
+    width: 500px;
+    margin-top: 50px;
+}
+
+
+
+/* ============= MENU =============*/
+
+.container--menu ul {
+    position: relative;
+
+    display: flex;
+    justify-content: left;
+    align-items: top;
+
+    margin: 0 auto;
+    margin-left: -58px;
+
+}
+
+.menu-mobile {
+    display: none;
+}
+
+.container--menu ul li {
+    width: 80px;
+    height: 60px;
+    color: white;
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    left: 0;
+    
+
+    list-style: none;
+}
+
+
+.container--menu ul li a {
+    color: white;
+    text-decoration: none;
+
+    height: 45px;
+   
+}
+
+
+
+.container--menu ul li a:hover {
+    color: #EFC862;
+    text-decoration: none;
+
+    border-bottom: 1px solid #EFC862;
+
+    height: 44px;
+   
+}
+
+.container--menu ul .active a {
+    color: #EFC862;
+    border-bottom: 1px solid #EFC862;
+}
+
+
+/* ============= WORK1 ================*/
+
+.container--work1 {
+    width: 100%;
+    height: 400px;
+    
+    padding-top: 150px;
+}
+
+.container--work1 p {
+    font-size: 13px;
+    color:rgb(148, 143, 143);
+}
+.description--work1 {
+   
+    
+    padding-left: 50px;
+}
+
+.linha {
+    background-color: rgb(148, 143, 143);
+    height: 2px;
+    width: 200px;
+    margin-top: -15px;
+}
+
+.linha2 {
+    height: 2px;
+    width: 150px;
+    background-color: #EFC862;
+}
+
+/* ============= WORK2 ================*/
+
+.container--work2 h1 {
+    width: 100%;
+    height: 100px;
+    /*background-color: green;*/
+    padding-top: 50px;
+    
+}
+.container--work2 p {
+    width: 90%;
+    height: 200px;
+    /*background-color: yellow;*/
+    font-size: 16px;
+    line-height: 1.6;
+    
+}
+
+
+/* ============= MENU INFERIOR ================*/
+
+.menu--inferior {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.993), rgba(0, 0, 0, 0.7));
+
+    /*background-color: rgba(0, 0, 0, 0.7);*/
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 200px;
+    width: 988px;
+
+    margin-left: 151px;
+    margin-bottom: 1px;
+    border-radius: 0 0 20px  0; 
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu--inferior-left,
+.menu--inferior-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    height: 200px;
+    width: 450px;
+
+    
+}
+
+.menu--inferior-left_description p {
+    font-size: 12px;
+    color:rgba(180, 177, 177, 0.8);
+}
+
+
+
+.menu--inferior-left_description2 p {
+    
+    font-size: 12px;
+    color:rgba(180, 177, 177, 0.8);
+}
+
+.menu--inferior-left_description2 h1,
+.menu--inferior-left_description2 a {
+    color: rgba(0, 0, 0, 0);
+    
+}
+
+.menu--inferior-left_description a {
+    text-decoration: none;
+    color: #EFC862;
+    font-size: 20px;
+}
+
+.menu--inferior-left_description,
+.menu--inferior-right_description {
+    width: 220px;
+    
+}
+ 
+
+.menu--inferior-right_description img {
+    height: 198px;
+    width: 200px;
+    background:rgba(180, 177, 177, 0.8);
+    margin-top: 5px;
+}
+
+.menu--inferior-right_description p {
+    font-size: 12px;
+    line-height: 1.8;
+    
+    color:rgba(180, 177, 177, 0.8);
+
+    width: 200px;
+}
+
+.menu--inferior-right_description a {
+    color: #EFC862;
+    text-decoration: none;
+
+    font-size: 12px;
+}
+
+.menu--inferior-right_description a:hover {
+    text-decoration: underline;
+}
+
+.menu--inferior-right_description.background {
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.424) 85%, rgba(230, 227, 227, 0.596)95%);
+                /*linear-gradient(336deg, rgba(215, 215, 218, 0.8), rgba(0,0,255,0) 70.71%);*/
+    width: 300px;
+    height: 200px;
+    
+    padding-left: 96px;
+    border-radius: 0 0 20px;
+    
+}
+
+@media (max-width: 768px) {
+    .section--principal {
+        width: 70%;
+        max-height: 700px;
+        
+        background-image: url(images/senhor-aneis.png);
+        background-repeat: no-repeat;
+        background-position: top;
+    
+        background-size: 45em;   
+        
+    }
+
+    main {
+        background-image: linear-gradient(to right, #313132, #161618);
+        height: 90vh;
+        width: 100%;
+        margin: auto;
+        display: flex;
+       
+        margin-top: 40px;
+        border-radius: 20px;
+    
+        position: relative;
+    }
+}

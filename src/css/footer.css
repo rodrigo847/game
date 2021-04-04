@@ -1,0 +1,103 @@
+@media (max-width: 768px) {
+    .menu--inferior {
+        background-image: linear-gradient(to right, rgba(238, 32, 32, 0.993), rgba(0, 0, 0, 0.7));
+    
+        /*background-color: rgba(0, 0, 0, 0.7);*/
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 200px;
+        width: 50%;
+    
+        
+        margin-bottom: 1px;
+        border-radius: 0 0 20px  0; 
+    
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .menu--inferior-left,
+    .menu--inferior-right {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    
+        height: 200px;
+        width: 50%;
+    
+        
+    }
+    
+    .menu--inferior-left_description p {
+        font-size: 12px;
+        color:rgba(180, 177, 177, 0.8);
+    }
+    
+    
+    
+    .menu--inferior-left_description2 p {
+        
+        font-size: 12px;
+        color:rgba(180, 177, 177, 0.8);
+    }
+    
+    .menu--inferior-left_description2 h1,
+    .menu--inferior-left_description2 a {
+        color: rgba(0, 0, 0, 0);
+        
+    }
+    
+    .menu--inferior-left_description a {
+        text-decoration: none;
+        color: #EFC862;
+        font-size: 20px;
+    }
+    
+    .menu--inferior-left_description,
+    .menu--inferior-right_description {
+        width: 50%;
+        
+    }
+     
+    
+    .menu--inferior-right_description img {
+        height: 198px;
+        width: 100%;
+        background:rgba(180, 177, 177, 0.8);
+        margin-top: 5px;
+    }
+    
+    .menu--inferior-right_description p {
+        font-size: 12px;
+        line-height: 1.8;
+        
+        color:rgba(180, 177, 177, 0.8);
+    
+        width: 100%;
+    }
+    
+    .menu--inferior-right_description a {
+        color: #EFC862;
+        text-decoration: none;
+    
+        font-size: 12px;
+    }
+    
+    .menu--inferior-right_description a:hover {
+        text-decoration: underline;
+    }
+    
+    .menu--inferior-right_description.background {
+        background: linear-gradient(135deg, rgba(0, 0, 0, 0.424) 85%, rgba(230, 227, 227, 0.596)95%);
+                    /*linear-gradient(336deg, rgba(215, 215, 218, 0.8), rgba(0,0,255,0) 70.71%);*/
+        width: 70%;
+        height: 200px;
+        
+        
+        border-radius: 0 0 20px;
+        
+    }
+}
